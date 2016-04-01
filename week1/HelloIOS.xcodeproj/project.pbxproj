@@ -14,7 +14,6 @@
 		94C273D11CACA58A00289D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C273CF1CACA58A00289D77 /* LaunchScreen.storyboard */; };
 		94C273DC1CACA58A00289D77 /* HelloIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C273DB1CACA58A00289D77 /* HelloIOSTests.swift */; };
 		94C273E71CACA58A00289D77 /* HelloIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C273E61CACA58A00289D77 /* HelloIOSUITests.swift */; };
-		94C273F51CACA6DC00289D77 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C273F41CACA6DC00289D77 /* File.swift */; };
 		94C273F71CACAB2D00289D77 /* TrackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C273F61CACAB2D00289D77 /* TrackTableViewController.swift */; };
 		94C274091CACAC2F00289D77 /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C273F81CACAC2F00289D77 /* 01.mp3 */; };
 		94C2740A1CACAC2F00289D77 /* 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C273F91CACAC2F00289D77 /* 02.mp3 */; };
@@ -34,6 +33,7 @@
 		94C274181CACAC2F00289D77 /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C274071CACAC2F00289D77 /* 16.mp3 */; };
 		94C274191CACAC2F00289D77 /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C274081CACAC2F00289D77 /* 17.mp3 */; };
 		94C2741B1CACB07900289D77 /* TrackControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C2741A1CACB07900289D77 /* TrackControlViewController.swift */; };
+		94FB03911CAE180800D96D23 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FB03901CAE180800D96D23 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		94C273E21CACA58A00289D77 /* HelloIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C273E61CACA58A00289D77 /* HelloIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloIOSUITests.swift; sourceTree = "<group>"; };
 		94C273E81CACA58A00289D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94C273F41CACA6DC00289D77 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		94C273F61CACAB2D00289D77 /* TrackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewController.swift; sourceTree = "<group>"; };
 		94C273F81CACAC2F00289D77 /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01.mp3; sourceTree = "<group>"; };
 		94C273F91CACAC2F00289D77 /* 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02.mp3; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		94C274071CACAC2F00289D77 /* 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16.mp3; sourceTree = "<group>"; };
 		94C274081CACAC2F00289D77 /* 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 17.mp3; sourceTree = "<group>"; };
 		94C2741A1CACB07900289D77 /* TrackControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackControlViewController.swift; sourceTree = "<group>"; };
+		94FB03901CAE180800D96D23 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +158,8 @@
 				94C273C81CACA58A00289D77 /* ViewController.swift */,
 				94C273CA1CACA58A00289D77 /* Main.storyboard */,
 				94C2741A1CACB07900289D77 /* TrackControlViewController.swift */,
+				94FB03901CAE180800D96D23 /* Track.swift */,
 				94C273F61CACAB2D00289D77 /* TrackTableViewController.swift */,
-				94C273F41CACA6DC00289D77 /* File.swift */,
 				94C273CD1CACA58A00289D77 /* Assets.xcassets */,
 				94C273CF1CACA58A00289D77 /* LaunchScreen.storyboard */,
 				94C273D21CACA58A00289D77 /* Info.plist */,
@@ -339,8 +339,8 @@
 				94C273C91CACA58A00289D77 /* ViewController.swift in Sources */,
 				94C273F71CACAB2D00289D77 /* TrackTableViewController.swift in Sources */,
 				94C2741B1CACB07900289D77 /* TrackControlViewController.swift in Sources */,
-				94C273F51CACA6DC00289D77 /* File.swift in Sources */,
 				94C273C71CACA58A00289D77 /* AppDelegate.swift in Sources */,
+				94FB03911CAE180800D96D23 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +565,7 @@
 				94C273ED1CACA58A00289D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94C273EE1CACA58A00289D77 /* Build configuration list for PBXNativeTarget "HelloIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +574,7 @@
 				94C273F01CACA58A00289D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94C273F11CACA58A00289D77 /* Build configuration list for PBXNativeTarget "HelloIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +583,7 @@
 				94C273F31CACA58A00289D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
