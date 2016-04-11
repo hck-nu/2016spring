@@ -1,23 +1,25 @@
-Slide Deck:
+#Hack Night Week 2: Intro to APIs
+
+###Slide Deck:
 https://docs.google.com/presentation/d/1P-IyWwzWGGk53HE4K8B6v87sSQ-QP_OscEqcQx0nUv4/edit?usp=sharing
 
-Lecture notes from today:
+###Lecture notes from today:
 https://gist.github.com/garciadanny/6896044
 
-How to install Python for Windows:
+###How to install Python for Windows:
 https://www.python.org/downloads/windows/
 
-How to install PIP (The Python package manager)
+###How to install PIP (The Python package manager)
 https://pip.pypa.io/en/stable/installing/
 
-OpenWeatherMap API Page:
+###OpenWeatherMap API Page:
 http://openweathermap.org/api
 
-Further Readings about APIs:
+###Further Readings about APIs:
 https://zapier.com/learn/apis/
 
-XML vs JSON and why it doesn't really matter:
+###XML vs JSON and why it doesn't really matter:
 http://www.yegor256.com/2015/11/16/json-vs-xml.html
 
-Simple Twitter Bot using APIs
+###Simple Twitter Bot using APIs
 https://github.com/yawkity/frank-ocean-bot
