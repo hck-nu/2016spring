@@ -1,0 +1,52 @@
+{
+  "name": "Drumpf-o-matic",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extension was created with the awesome extensionizr.com",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/trump16.png",
+    "48": "icons/trump48.png",
+    "128": "icons/trump128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "options_page": "src/options_custom/index.html",
+  "page_action": {
+    "default_icon": "icons/trump19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    // {
+    //   "matches": [
+    //     "https://www.google.com/*"
+    //   ],
+    //   "css": [
+    //     "src/inject/inject.css"
+    //   ]
+    // },
+    {
+      "matches": [
+        "http://*/*", "https://*/*"
+      ],
+      "js": [
+        "js/jquery/jquery.js", "src/inject/inject.js"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
+}
