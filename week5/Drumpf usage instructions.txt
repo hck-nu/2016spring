@@ -1,0 +1,7 @@
+To install the Drumpfinator, open the chrome menu and go to More tools > Extensions.
+Check the Developer Mode checkbox on the extensions page
+Click the Load unpacked extension... button and select the "drumpf" folder
+You'll have to refresh the page for any pages that were open before the extensions was installed.
+You'll also need to refresh the page whenever you change the word replacements.
+If you make any changes to the extension, go back to the extensions page and click the Reload option next to the Drumpfinator.
+Enjoy!

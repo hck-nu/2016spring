@@ -8,11 +8,6 @@ $("#new_item").keypress(function(e) {
     }
 });
 
-$(".check").on('click', function(e) {
-    // alert("clicked");
-    $(this).parent().remove();
-});
-
 todoList.on('click', '.check', function(e) {
     // alert("clicked");
     $(this).parent().fadeOut(200, function() {

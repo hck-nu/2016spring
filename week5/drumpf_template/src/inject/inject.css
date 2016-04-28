@@ -1,8 +1,0 @@
-/**
- * Place your custom CSS styles here.
- **/
-.murica {
-    background: -webkit-repeating-linear-gradient(left, #bf0a30 0%,#ccc 37%,#ccc 65%,#002868 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}

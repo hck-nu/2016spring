@@ -1,7 +1,8 @@
+alert("Hi");
+
 // Get the first element
-document.getElementById("intro");
-document.getElementsByTagName("h1");
+$("#intro").css("font-size", "20px");
+$("#intro").css("color", "orangered");
 
 // Get the second element
-document.getElementsByClass("boring");
-document.getElementsByTagName("p");
+$(".boring").css("font-weight", "bold");

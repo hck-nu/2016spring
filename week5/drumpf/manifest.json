@@ -29,14 +29,6 @@
     "https://*/*"
   ],
   "content_scripts": [
-    // {
-    //   "matches": [
-    //     "https://www.google.com/*"
-    //   ],
-    //   "css": [
-    //     "src/inject/inject.css"
-    //   ]
-    // },
     {
       "matches": [
         "http://*/*", "https://*/*"
